@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
         <Routes>
           <Route path="" element />
         </Routes>
+
+        <Sidebar />
       </BrowserRouter>
     </div>
   );
